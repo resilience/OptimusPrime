@@ -7,6 +7,8 @@ import Result from "./components/result/result";
 const request = require("request");
 var totalPrimes = [];
 
+// find total number of primes in price as max
+
 function totalPrimeNumbers(max) {
   var store = [],
     i,
@@ -24,6 +26,8 @@ function totalPrimeNumbers(max) {
   totalPrimes.push(primes.length);
 }
 
+// evaluate if total number of primes is a prime
+
 function isOptimusPrime(value) {
   for (var i = 2; i < value; i++) {
     if (value % i === 0) {
@@ -33,6 +37,9 @@ function isOptimusPrime(value) {
 
   return value > 1, console.log(value);
 }
+
+// Main Application
+
 class App extends React.Component {
   state = {
     startDate: "",
@@ -44,7 +51,7 @@ class App extends React.Component {
   // 3. if the total is a prime, add to new array
 
   process = (startDate, endDate) => {
-    // FETCH FUNCTION
+    
     // Build API Call
     const baseReqUrl = "https://api.coindesk.com/v1/bpi/historical/close.json?";
 
