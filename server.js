@@ -2,27 +2,6 @@ const express = require("express");
 const joi = require("joi");
 const app = express();
 
-// Gil Candidate Test
-// github repo :
-
-// The ASK
-// - in the daily bitcoin price for a given period (input from a user but max
-//   6 months period), on which days is the total number of the prime numbers in
-//   that price, a prime number itself
-// - pull the bitcoin price from somewhere, don’t hard code it
-// - write the program in some JavaScript based language (react, node, etc)
-// - create a basically styled interface, but with some polish
-
-// Breakdown of the ask:
-// Build Interface for user to specify period  ( max 6 month period ) and coin type in React
-// Send selection to App backend on submit
-//
-// Backend makes API call based on params & retrieves price data from selected source
-// for each day, find all prime numbers in price
-// if the total prime numbers for a day is a prime, add date to list
-// return final date list to React when done
-
-// HANDLE INPUT
 
 // sample API request
 // https://api.coindesk.com/v1/bpi/historical/close.json?start=2013-09-01&start=2013-09
