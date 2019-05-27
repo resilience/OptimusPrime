@@ -19,3 +19,13 @@
 // for each date, find all prime numbers in returned bitcoin price
 // if the total prime numbers in a bitcoin price for a day is a prime, add date to list
 // return final date list to React when done
+
+
+### `npm start dev`
+
+Runs the app server and client concurrently.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+.<br>
+
+current output is limited to the console while work is in progress
