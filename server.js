@@ -2,7 +2,6 @@ const express = require("express");
 const joi = require("joi");
 const app = express();
 
-
 // sample API request
 // https://api.coindesk.com/v1/bpi/historical/close.json?start=2013-09-01&start=2013-09
 
